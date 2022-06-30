@@ -110,7 +110,7 @@ void loop()
     nh.loginfo("RC Control");
   }
   // Serial.println("RC Control"); if (failSafe || RC_Key_Switch_Reading == 278)
-  else
+  else if(RC_Key_Switch_Reading == 278)
   {
     //   Serial.println("ROS Control");
 
